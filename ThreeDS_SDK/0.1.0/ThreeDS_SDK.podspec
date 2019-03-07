@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.2'
   s.default_subspec = 'iphoneos'
-  s.module_name = 'ThreeDS_SDK'
+  s.module_name = 'threeds'
   s.source       = { :http => "https://3ds-sdk.extranet.netcetera.biz/nca-446-3/dav/ios/release/#{s.version}/ThreeDS_SDK.zip" }
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
